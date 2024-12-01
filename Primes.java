@@ -1,7 +1,7 @@
 public class Primes {
     public static void main(String[] args) {
         int input = Integer.parseInt(args[0]);
-        for(int i = 2; i < input; i++){
+        for(int i = 2; i <= input; i++){
             if(isPrime(i)){
                 System.out.println(i);
             }
